@@ -1,0 +1,28 @@
+{
+  "start":"node index.js",
+  "whatthethingaboveis":"i dont know if start should be here or in scripts but i think it should be in scripts, but safety first.",
+  "name": "swrultra",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js",
+    "start":"node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/npmnode/swrultra.git"
+  },
+  "keywords": [
+    "startwebrequest",
+    "code.org",
+    "swr",
+    "swrultra"
+  ],
+  "author": "npmnode",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/npmnode/swrultra/issues"
+  },
+  "homepage": "https://github.com/npmnode/swrultra#readme"
+}
