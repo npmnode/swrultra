@@ -1,13 +1,13 @@
 {
-  "start":"node index.js",
-  "whatthethingaboveis":"i dont know if start should be here or in scripts but i think it should be in scripts, but safety first.",
+  "start": "node index.js",
+  "whatthethingaboveis": "i dont know if start should be here or in scripts but i think it should be in scripts, but safety first.",
   "name": "swrultra",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "node index.js",
-    "start":"node index.js"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -24,5 +24,8 @@
   "bugs": {
     "url": "https://github.com/npmnode/swrultra/issues"
   },
-  "homepage": "https://github.com/npmnode/swrultra#readme"
+  "homepage": "https://github.com/npmnode/swrultra#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
 }
