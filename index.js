@@ -1,3 +1,7 @@
 const app = require('express')();
-const dweet= require();
-const fetch = require();
+
+app.get('/', function(req, res){
+    res('hi');
+});
+
+app.listen(process.env.PORT||3000);
